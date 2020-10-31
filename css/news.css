@@ -1,16 +1,6 @@
 
-.main-area1{
-    height: 1900px;
-    background-color: #288e9d;
-}
-
-.main-area2{
-    height: 2150px;
-    background-color: #288e9d;
-}
-
-.main-area3{
-    height: 1550px;
+.main-area{
+    height: 100%;
     background-color: #288e9d;
 }
 
@@ -41,7 +31,6 @@
 }
 
 .news-area{
-    height: 1375px;
     padding-left: 11%;
     padding-right: 11%;
     color: #fff;

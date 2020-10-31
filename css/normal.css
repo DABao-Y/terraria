@@ -40,7 +40,11 @@ video{
 
 img {
 	border-style: none;
-  }
+}
+
+.center-word{
+    text-align: center;
+}
 
 /*header*/
 header{
@@ -79,20 +83,19 @@ footer{
 	margin-top: 20px;
 	display:flex;
 	justify-content: space-around;
+}
+
 .gif{
-		width: 150px;
+	width: 150px;
 }
+
 .gift{
-		justify-content:center;
- }
+	justify-content:center;
 }
+
 .avoid{
 	color:white;
 	font-size: x-small;
 	font-weight: lighter;
 
-}
-
-.center-word{
-    text-align: center;
 }
