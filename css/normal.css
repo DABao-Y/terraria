@@ -106,14 +106,11 @@ footer{
 .gift{
 	display:flex;
 	justify-content:center;
-	
 	margin-right: 45px;
-	
 }
 
 .avoid{
 	color:white;
 	font-size: x-small;
 	font-weight: lighter;
-
 }

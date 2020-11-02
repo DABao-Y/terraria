@@ -13,7 +13,9 @@
     justify-content: space-between;
 }
 
-
+.small{
+    font-size: small;
+}
 
 /*news-area*/
 .line{
@@ -32,7 +34,6 @@
 }
 
 .news-img{
-    margin-top: 30px;
     width: 77vw;
 }
 
