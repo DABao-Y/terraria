@@ -34,6 +34,17 @@ body {
 	justify-content: center;
 }
 
+.bt{
+	border: solid 1px #fff;
+    border-radius: 3px;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 video{
 	margin: 0;
 	width: 100%;

@@ -19,6 +19,12 @@
 	width: 27vw;
 }
 
+.list{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
 /*intro*/
 .container {
   display: -webkit-box;
