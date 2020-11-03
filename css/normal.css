@@ -21,10 +21,12 @@ h1{
 }
 
 body {
+	cursor: url('/media/cursor.cur'), auto;
 	font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 	font-size: 18px;
 	margin: 0;
 	padding: 0;
+	cursor: url(/media/3-3.png);
 }
 
 .title{
