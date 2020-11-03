@@ -31,7 +31,7 @@ main {
 }
 
 .button {
-  cursor: pointer;
+  cursor: url('/media/pointer.cur'),pointer;
   display: inline-block;
   width: auto;
   margin: 0 auto;
