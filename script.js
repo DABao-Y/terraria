@@ -2,13 +2,13 @@
 // carousel items
 const carousels = [
 	{
-		img: 'media/2-2.png',
+		img: '/media/2-2.png',
 	},
 	{
-		img: 'media/2-2.png',
+		img: '/media/2-2.png',
 	},
 	{
-		img: 'media/2-2.png',
+		img: '/media/2-2.png',
 	}
 ];
 
