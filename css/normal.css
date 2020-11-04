@@ -7,7 +7,7 @@ html {
 }
 
 a {
-	cursor: url('/media/pointer.cur'),pointer;
+	cursor: url('../media/pointer.cur'),pointer;
 	text-decoration:none;
 }
 
@@ -22,7 +22,7 @@ h1{
 }
 
 body {
-	cursor: url('/media/cursor.cur'), auto;
+	cursor: url('../media/cursor.cur'), auto;
 	font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 	font-size: 18px;
 	margin: 0;
