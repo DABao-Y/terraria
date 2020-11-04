@@ -7,6 +7,12 @@ const carousels = [
 	{
 		img: 'media/2.png',
 	},
+	{
+		img: 'media/3.gif',
+	},
+	{
+		img: 'media/4.gif',
+	},
 ];
 
 // vue
