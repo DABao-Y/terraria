@@ -17,7 +17,7 @@ new Vue({
 		carousels: carousels,
 		len: 0,
     show: 0,
-		xDown: null, // for swiper
+		xDown: null, 
 		yDown: null, // for swiper
 		autoplay: false, // 是否自動輪播
 		timer: null, // auto play
