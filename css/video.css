@@ -1,7 +1,7 @@
 h1{
     padding-left: 11%;
     padding-right: 11%;
-    color: #fff;
+    color: #2F4F4F;
 }
 body{
     min-width: 1280px;
@@ -9,7 +9,7 @@ body{
 
 .main-area{
     height: 100%;
-    background-color: #288e9d;
+    background-color: #FFFAFA;
 }
 
 .bt-area{
@@ -32,7 +32,7 @@ body{
 .news-area{
     padding-left: 11%;
     padding-right: 11%;
-    color: #fff;
+    color: #2F4F4F;
 }
 
 .news-img{

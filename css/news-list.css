@@ -4,7 +4,7 @@ body{
 
 .main-area{
     height: 100%;
-    background-color: #288e9d;
+    background-color: #FFFAFA;
 }
 
 .bt-area{
@@ -20,6 +20,7 @@ body{
 
 /*news-area*/
 .line{
+    
     height: 1px;
     width: 990px;
 }
@@ -27,7 +28,7 @@ body{
 .news-area{
     padding-left: 11%;
     padding-right: 11%;
-    color: #fff;
+    color: #2F4F4F;
 }
 
 .news-img{
@@ -41,6 +42,7 @@ body{
 }
 
 .news-word{
+    color: #2F4F4F;
     margin-top: 0;
     margin-left: 30px;
     min-width: 600px;

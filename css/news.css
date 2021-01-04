@@ -1,7 +1,7 @@
 
 .main-area{
     height: 100%;
-    background-color: #288e9d;
+    background-color: #FFFAFA;
 }
 
 .bt-area{
@@ -26,7 +26,7 @@
 .news-area{
     padding-left: 11%;
     padding-right: 11%;
-    color: #fff;
+    color: #2F4F4F
 }
 
 .news-title{
