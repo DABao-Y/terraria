@@ -193,7 +193,11 @@ footer{
 	h2{
 	  font-size: 1em;	
 	}
-
-	
+	p{
+	  font-size: 0.8em;		
+	}
+	.bt{
+      size:50%;
+	}
   }
  
