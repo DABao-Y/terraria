@@ -38,102 +38,16 @@
   margin-left: auto;
   max-width: 100%;
 }
-
-.carousel-wrap {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
+.carousel-inner{
+  margin-bottom: 5%;
+  margin-left: 5%; 
+  margin-right: 5%;
+  width: 90%;
 }
-.carousel-wrap .item {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  width: 100%;
-  background: #000;
-  color: #2F4F4F;
-  opacity: 1;
+.carousel-control-prev{
+  margin-left: 5%; 
+  
 }
-.carousel-wrap .item:first-of-type {
-  position: relative;
-}
-.carousel-wrap .item img {
-  display: block;
-  max-width: 100%;
-}
-.carousel-wrap .item a {
-  display: block;
-}
-
-.button-prev, .button-next, .dot-group {
-  position: absolute;
-  z-index: 1;
-}
-
-.button-prev, .button-next {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
-}
-.button-prev:hover, .button-next:hover {
-  opacity: 0.7;
-}
-.button-prev img, .button-next img {
-  display: block;
-  max-width: 40px;
-}
-
-.button-next {
-  right: 0;
-}
-
-.dot-group {
-  right: 0;
-  bottom: 8px;
-  left: 0;
-  display: flex;
-  justify-content: center;
-}
-.dot-group a {
-  display: block;
-  margin-right: 8px;
-  margin-left: 8px;
-  width: 16px;
-  height: 16px;
-  background: rgba(255, 255, 255, 0.5);
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-.dot-group a:hover, .dot-group a.active {
-  background: #fff;
-}
-
-.carousel-prev-enter-active, .carousel-prev-leave-active,
-.carousel-next-enter-active, .carousel-next-leave-active {
-  -webkit-transition: -webkit-transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: -webkit-transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-  will-change: transform;
-}
-
-.carousel-next-enter, .carousel-prev-leave-to {
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-}
-
-.carousel-next-leave-to, .carousel-prev-enter {
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+.carousel-control-next{
+  margin-right: 5%;  
 }
