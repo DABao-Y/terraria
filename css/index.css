@@ -1,6 +1,6 @@
 /*news-area*/
 .news-area{
-	height:640px;
+	height:100%;
 	background-color:#FFFAFA;
 	margin-top: -7px;
   color: #2F4F4F;
@@ -16,7 +16,6 @@
 
 .news-word{
   color:#2F4F4F;
-	font-size: 75%;
 	width: 27vw;
 }
 
@@ -24,6 +23,7 @@
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /*intro*/
@@ -50,4 +50,28 @@
 }
 .carousel-control-next{
   margin-right: 5%;  
+}
+
+@media (max-width: 1199px) {
+	
+}
+
+/*手機*/
+@media (max-width: 767px) {
+  .news-area{
+    height:100%;
+  }
+  .news{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left:20%;
+    padding-right: 20%;
+  }
+    
+  .news-word{
+    margin-left: 0px;
+    margin-top: 10px;
+    width:100%;
+  }
 }

@@ -38,7 +38,6 @@ body {
 }
 
 .bt{
-	
 	border: solid 1px #2F4F4F;
     border-radius: 3px;
     color:#2F4F4F;
@@ -186,18 +185,30 @@ footer{
 }
 
 /*rwd*/
-@media (max-width: 800px) {
+
+/*平板*/
+@media (max-width: 1199px) {
 	h1 {
-	  font-size: 1.5em;
-	}
-	h2{
-	  font-size: 1em;	
+		font-size: 1.8em;
 	}
 	p{
-	  font-size: 0.8em;		
+		font-size: 0.9em;		
 	}
 	.bt{
-      size:50%;
+		font-size: 17px;
 	}
-  }
+}
+
+/*手機*/
+@media (max-width: 767px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	p{
+		font-size: 0.8em;		
+	}
+	.bt{
+		font-size: 13px;
+	}
+}
  

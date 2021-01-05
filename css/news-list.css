@@ -1,7 +1,3 @@
-body{
-    min-width: 1280px;
-}
-
 .main-area{
     height: 100%;
     background-color: #FFFAFA;
@@ -22,7 +18,7 @@ body{
 .line{
     
     height: 1px;
-    width: 990px;
+    width: 78vw;
 }
 
 .news-area{
@@ -36,6 +32,7 @@ body{
 }
 
 .news{
+    width:78vw;
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
@@ -45,5 +42,29 @@ body{
     color: #2F4F4F;
     margin-top: 0;
     margin-left: 30px;
-    min-width: 600px;
+}
+
+/*平板*/
+@media (max-width: 1199px) {
+	.news-img{
+        width: 200px;
+    }
+}
+
+/*手機*/
+@media (max-width: 767px) {
+    .news{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .news-img{
+        width: 78vw;
+    }
+    
+    .news-word{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }
