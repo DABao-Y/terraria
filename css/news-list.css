@@ -49,6 +49,9 @@
 	.news-img{
         width: 200px;
     }
+    .bt-area{
+        width: 191px;
+    }
 }
 
 /*手機*/
@@ -66,5 +69,8 @@
     .news-word{
         margin-left: 0px;
         margin-top: 10px;
+    }
+    .bt-area{
+        width: 146px;
     }
 }

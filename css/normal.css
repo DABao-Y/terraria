@@ -8,7 +8,8 @@ html {
 
 a {
 	cursor: url('../media/pointer.cur'),pointer;
-	text-decoration:none;
+	text-decoration:none!important;
+	color:#2F4F4F!important;
 }
 
 h1{
@@ -195,7 +196,12 @@ footer{
 		font-size: 0.9em;		
 	}
 	.bt{
-		font-size: 17px;
+		width: 80px;
+		height: 40px;
+		font-size: 13px;
+	}
+	.btline{
+        height: 40px;
 	}
 }
 
@@ -208,7 +214,13 @@ footer{
 		font-size: 0.8em;		
 	}
 	.bt{
-		font-size: 13px;
+		width: 60px;
+		height: 30px;
+		font-size: 10px;
 	}
+	.btline{
+        height: 30px;
+	}
+	
 }
  

@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Terraria</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/news-list.css">
 	<link rel="stylesheet" href="css/sidebar.css">
 	<link rel="stylesheet" href="css/normal.css">
@@ -12,23 +13,29 @@
 </head>
 
 <body>
-	<!-- partial:index.partial.html -->
-<div class="nav-right visible-xs">
-	<div class="button" id="btn">
-	  <div class="bar top"></div>
-	  <div class="bar middle"></div>
-	  <div class="bar bottom"></div>
-	</div>
-</div>
   <!-- nav-right -->
   <main>
 	<header>
-		<a href="index.html"><img class="logo" src="media/logo2.png"></a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-color fixed-top">
+			<a class="navbar-brand" href="index.html"><img src="media/logo2.png" alt="" width="150"></a>
+			<button class="navbar-toggler btn btn-primary navbar-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+			</button>
+		
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item"><a class="nav-link" href="https://terraria.org">Official Website</a></li>
+				  <li class="nav-item"><a class="nav-link" href="https://terraria-zh.gamepedia.com/Terraria_Wiki?variant=zh-tw">Official Guide</a></li>
+				  <li class="nav-item"><a class="nav-link" href="https://store.steampowered.com/app/105600/Terraria/?l=tchinese">Steam Store</a></li>
+				  <li class="nav-item"><a class="nav-link" href="https://forum.gamer.com.tw/A.php?bsn=20172">Gamer Forum</a></li>
+				</ul>
+			  </div>
+		</nav>
 	</header>
 	<div class="main-area">
 		<div class="bt-area">
 			<a href="index.html" class="bt">HOME</a>
-			<img src="media/線段.jpg" width="1px" height="50px">
+			<img src="media/線段.jpg" width="1px" height="50px" class="btline">
 			<a href="#" class="bt">NEWS</a>
 		</div>
 		<div class="news-area">
@@ -101,15 +108,11 @@
 	</nav>
   </main>
   
-  <div class="sidebar">
-	<ul class="sidebar-list">
-	  <li class="sidebar-item"><a href="https://terraria.org" class="sidebar-anchor">OFFICIAL WEBSITE</a></li>
-	  <li class="sidebar-item"><a href="http://terraria.gamepedia.com/Terraria_Wiki" class="sidebar-anchor">OFFICIAL GUIDE</a></li>
-	  <li class="sidebar-item"><a href="https://store.steampowered.com/app/105600/Terraria/?l=tchinese" class="sidebar-anchor">Steam Store</a></li>
-	  <li class="sidebar-item"><a href="https://forum.gamer.com.tw/A.php?bsn=20172" class="sidebar-anchor">Gamer Forum</a></li>
-	</ul>
-  </div>
+  
   <!-- partial -->
+  <script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
   	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
   	<script  src="js/script2.js"></script>
   	<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.js'></script>
