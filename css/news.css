@@ -37,14 +37,14 @@
     width: 77vw;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 769px) {
 	.bt-area{
         width: 300px;
     }
 }
 
 /*手機*/
-@media (max-width: 767px) {
+@media (max-width: 376px) {
     .bt-area{
         width: 230px;
     }
